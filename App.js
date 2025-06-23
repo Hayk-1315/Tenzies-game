@@ -72,9 +72,7 @@ export default function App() {
  }
    
        function rollDice() {
-      //JSON.parse(localStorage.getItem("now")) || 0
-      //let now =  Math.floor(Date.now() / 1000)
-     // localStorage.setItem("now", JSON.stringify(now))    
+       
        let count = JSON.parse(localStorage.getItem("hashvark")) || 1
         count ++
         localStorage.setItem("hashvark", JSON.stringify(count))

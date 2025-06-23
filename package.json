@@ -1,18 +1,28 @@
 {
-  "name": "Scrim-s0p5oun6l1",
-  "description": "https://v2.scrimba.com/s0p5oun6l1",
+  "name": "tenzies-game",
+  "version": "1.0.0",
+  "description": "A simple dice game built with React as part of my Scrimba learning path.",
+  "author": "Albert Khudaverdyan",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "tenzies",
+    "game",
+    "scrimba",
+    "javascript"
+  ],
   "scripts": {
     "watch": "webpack -w",
     "build": "webpack"
   },
   "dependencies": {
+    "nanoid": "3.1.28",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "nanoid": "3.1.28",
-    "react-confetti": "6.0.1",
-    "webpack": "^2.0"
+    "react-confetti": "6.0.1"
   },
   "devDependencies": {
+    "webpack": "^2.0",
     "babel-core": "^6.0",
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
